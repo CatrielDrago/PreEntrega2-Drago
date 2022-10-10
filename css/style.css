@@ -1789,5 +1789,116 @@ footer .contenedorFooter .contenedorMapa{
         width: 100%;
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 650px){
+    header nav .botones ul li a{
+        font-size: 12px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid div{
+        width: 250px;
+        height: 400px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorNinios .contenedorCardNGrid div{
+        width: 250px;
+        height: 400px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN1 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN2 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN3 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN4 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN5 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN6 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid div{
+        width: 250px;
+        height: 400px;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img{
+        width:245px;
+        height:240px
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img{
+        width:245px;
+        height:240px
+    }
 
 }
