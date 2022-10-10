@@ -1365,3 +1365,26 @@ footer .derechosReservados p{
         width: 500px;
     }
 }
+
+@media screen and (max-width: 1000px){
+    main .tiendaContenedor .tiendaImg1{
+        width: 650px;
+        
+    }
+    
+    main .tiendaContenedor .tiendaImg2{
+        width: 650px;
+    }
+
+    header nav .botones ul li a{
+        margin-left: 15px;
+    }
+
+    main .formulario .formularioContenedor{
+        width: 400px;
+    }
+
+    main .formulario .formularioPresentacion{
+        width: 400px;
+    }
+}
