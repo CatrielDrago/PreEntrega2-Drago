@@ -1930,3 +1930,162 @@ footer .contenedorFooter .contenedorMapa{
         margin-left: 5px;
     }
 }
+
+@media screen and (max-width: 550px){
+    main .contenedorCardAdultos .contenedorCardAGrid div{
+        width: 200px;
+        height: 350px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img{
+        width: 195px;
+        height: 190px;
+    }
+    
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid div{
+        width: 200px;
+        height: 350px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN1 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN2 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN3 img{
+        width: 195px;
+        height: 190px;
+    }
+    
+
+    main .contenedorNinios .contenedorCardNGrid .cardN4 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN5 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN6 img{
+        width: 195px;
+        height: 190px;
+    }
+    
+    main .contenedorAccesorios .contenedorCardAcGrid div{
+        width: 200px;
+        height: 350px;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img{
+        width: 195px;
+        height: 190px;
+    }
+    
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img{
+        width: 195px;
+        height: 190px;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionImg{
+        width: 200px;
+        height: 200px;
+    }
+    main .formulario .formularioPresentacion .formularioPresentacionImg img{
+        width: 150px;
+        height: 150px;
+    }
+
+    footer .contenedorFooter .contenedorMapa{
+        width: 100%;
+    }
+
+    footer .contenedorFooter .contenedorMapa h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header nav .botones ul li a{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    
+    main .tiendaContenedor{
+        flex-direction: row;
+        padding: 5px;
+        gap: 5px;
+        
+    }
+    
+    main .tiendaContenedor .tiendaImg1{
+        width: 50%;
+        height: 480px;
+    }
+
+    main .tiendaContenedor .tiendaImg1 h2{
+        font-size: 22px;
+    }
+
+    main .tiendaContenedor .tiendaImg2{
+        width: 50%;
+        height: 480px;
+    }
+
+    main .tiendaContenedor .tiendaImg2 h2{
+        font-size: 22px;
+    }
+}
