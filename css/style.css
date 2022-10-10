@@ -1900,5 +1900,33 @@ footer .contenedorFooter .contenedorMapa{
         width:245px;
         height:240px
     }
+}
 
+@media screen and (max-width: 600px){
+    main .hero .heroContenedor .heroImg a img{
+        height: 250px;
+    }
+    main .hero .heroContenedor .heroTitulo h1{
+        font-size: 25px;
+    }
+    main .hero .heroContenedor .heroTitulo .heroLinks a{
+        font-size: 14px;
+    }
+    main .tiendaContenedor .tiendaImg1{
+        width: 480px;
+        align-items: center;
+    }
+    
+    main .tiendaContenedor .tiendaImg2{
+        width: 480px;
+    }
+
+    main .novedades .novedadesContenedor h2{
+        padding: 3px 3px;
+        bottom: 689px;
+    }
+    
+    main .novedades .novedadesContenedor div{
+        margin-left: 5px;
+    }
 }
