@@ -1248,9 +1248,6 @@ footer .contenedorFooter .contenedorRedesNew .redesSociales h2{
     margin-bottom: 10px;
 }
 
-
-
-
 footer .contenedorFooter .contenedorRedesNew .redesSociales .iconosFooter a img{
     width: 54px;
     height: 54px;
@@ -1386,6 +1383,10 @@ main .formulario .formularioContenedor form .formularioMensaje{
     width: 350px;
 }
 
+footer .contenedorFooter .contenedorMapa{
+    width: 50%;
+}
+
     footer .contenedorFooter .contenedorMapa iframe{
         width: 350px;
     }
@@ -1421,15 +1422,21 @@ main .formulario .formularioContenedor form .formularioMensaje{
         margin-left: 15px;
     }
 
+    main .formulario .formularioPresentacion{
+        width: 380px;
+    }  
+    main .formulario .formularioPresentacion .formularioPresentacionRedes{
+        width: 350px;
+    }
+    main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
+        width: 350px;
+    }
+
     main .formulario .formularioContenedor{
         width: 380px;
     }
 
-    main .formulario .formularioPresentacion{
-        width: 380px;
-    }
-
-    main .formulario .formularioPresentacion form{
+    main .formulario .formularioContenedor form{
         width: 380px;
     }
 
@@ -1455,6 +1462,40 @@ main .formulario .formularioContenedor form .formularioMensaje{
 }
 
 @media screen and (max-width: 850px) {
+    main .formulario .formularioPresentacion{
+        width: 300px;
+    } 
+    
+    main .formulario .formularioPresentacion .formularioPresentacionImg{
+        width: 250px;
+        height: 250px;
+    }
+    main .formulario .formularioPresentacion .formularioPresentacionImg img{
+        width:200px;
+        height: 200px;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes{
+        width: 280px;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes h2{
+        font-size: 26px;
+
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
+        width: 280px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos img{
+        width: 44px;
+        height: 44px;
+    }
+
     main .contenedorCardAdultos .contenedorCardAGrid div{
         width: 300px;
         height: 400px;
@@ -1651,4 +1692,102 @@ main .formulario .formularioContenedor form .formularioMensaje{
     footer .contenedorFooter .contenedorRedesNew .redesSociales{
         width: 350px;
     }
+
+    footer .contenedorFooter .contenedorRedesNew .redesSociales .iconosFooter a img{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    footer .contenedorFooter .contenedorRedesNew .newsletter form .emailNewsletter{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    main .formulario .formularioContenedor{
+        width: 55%;
+    }
+
+    main .formulario .formularioPresentacion{
+        width: 40%;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
+        width: 200px;
+    }
+
+    footer .contenedorFooter .contenedorMapa iframe{
+        width: 280px;
+        height: 200px;
+    }
+
+    footer .contenedorFooter .contenedorMapa h2{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    main .tiendaContenedor .tiendaImg1{
+        width: 600px;
+        
+    }
+    
+    main .tiendaContenedor .tiendaImg2{
+        width: 600px;
+    } 
+
+    main .formulario{
+        height: 1300px;
+        flex-direction: column;
+    }
+
+    main .formulario .formularioPresentacion{
+        flex-direction: row;
+        width: 95%;
+        height: 300px;
+    } 
+    
+    main .formulario .formularioPresentacion .formularioPresentacionImg{
+        width: 250px;
+        height: 250px;
+    }
+    main .formulario .formularioPresentacion .formularioPresentacionImg img{
+        width:200px;
+        height: 200px;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes{
+        width: 280px;
+        justify-content: center;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes h2{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
+        width: 200px;
+        height: 100px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos img{
+        width: 44px;
+        height: 44px;
+    }
+
+    main .formulario .formularioContenedor{
+        width: 95%;
+    }
+
+    footer .contenedorFooter{
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+
 }
