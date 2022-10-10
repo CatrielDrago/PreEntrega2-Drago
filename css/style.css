@@ -1276,6 +1276,7 @@ footer .derechosReservados p{
     text-transform: uppercase;
     font-size: 12px;
 }
+
 @media screen and (max-width: 1090px){
     main .hero .heroContenedor .heroImg a img{
         height: 285px;
@@ -1286,5 +1287,81 @@ footer .derechosReservados p{
     }
     main .hero .heroContenedor .heroTitulo h1{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    main .contenedorCardAdultos{
+        height: 1700px;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid{
+        height: 1500px;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: auto;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA3{
+        grid-column: 1/2;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA4{
+        grid-column: 2/3;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA5{
+        grid-column:1/2;
+    }
+
+    main .contenedorCardAdultos .contenedorCardAGrid .cardA6{
+        grid-column:2/3;
+    }
+
+    main .contenedorNinios{
+        height: 1700px;
+    }
+    main .contenedorNinios .contenedorCardNGrid{
+        height: 1500px;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: auto;
+    }
+
+    main .contenedorNinios .contenedorCardNGrid .cardN3{
+        grid-column: 1/2;
+    }
+    main .contenedorNinios .contenedorCardNGrid .cardN4{
+        grid-column: 2/3;
+    }
+    main .contenedorNinios .contenedorCardNGrid .cardN5{
+        grid-column:1/2;
+    }
+    main .contenedorNinios .contenedorCardNGrid .cardN6{
+        grid-column:2/3;
+    }
+
+    main .contenedorAccesorios{
+        height: 1700px;
+    }
+    main .contenedorAccesorios .contenedorCardAcGrid{
+        height: 1500px;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: auto;
+    }
+
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc3{
+        grid-column: 1/2;
+    }
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc4{
+        grid-column: 2/3;
+    }
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc5{
+        grid-column:1/2;
+    }
+    main .contenedorAccesorios .contenedorCardAcGrid .cardAc6{
+        grid-column:2/3;
+    }
+
+    main .formulario .formularioContenedor{
+        width: 500px;
     }
 }
