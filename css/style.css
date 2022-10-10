@@ -1276,7 +1276,15 @@ footer .derechosReservados p{
     text-transform: uppercase;
     font-size: 12px;
 }
-@media screen and (max-width: 1075px){
-
+@media screen and (max-width: 1090px){
+    main .hero .heroContenedor .heroImg a img{
+        height: 285px;
+        padding-bottom: 10px;
+    }
+    main .hero .heroContenedor{
+        height: 470px;
+    }
+    main .hero .heroContenedor .heroTitulo h1{
+        font-size: 30px;
+    }
 }
-    
