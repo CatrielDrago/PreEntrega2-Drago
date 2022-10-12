@@ -2071,7 +2071,7 @@ footer .contenedorFooter .contenedorMapa{
         flex-direction: row;
         padding: 5px;
         gap: 5px;
-        
+
     }
     
     main .tiendaContenedor .tiendaImg1{
@@ -2090,6 +2090,19 @@ footer .contenedorFooter .contenedorMapa{
 
     main .tiendaContenedor .tiendaImg2 h2{
         font-size: 22px;
+    }
+
+    main .formulario .formularioContenedor form{
+        width: 98%;
+    }
+
+    main .formulario .formularioContenedor form .formularioNAE{
+        width: 95%;
+    }
+
+    main .formulario .formularioContenedor form .formularioNAE label{
+        font-size: 16px;
+        margin-right: 10px;
     }
 }
 
@@ -2120,7 +2133,7 @@ footer .contenedorFooter .contenedorMapa{
     main .contenedorCardAdultos .contenedorCardAGrid{
         height: 2350px;
         grid-template-columns: 1fr;
-        
+
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA1{
@@ -2154,7 +2167,7 @@ footer .contenedorFooter .contenedorMapa{
     main .contenedorNinios .contenedorCardNGrid{
         height: 2350px;
         grid-template-columns: 1fr;
-        
+
     }
 
     main .contenedorNinios .contenedorCardNGrid .cardN1{
@@ -2255,17 +2268,8 @@ footer .contenedorFooter .contenedorMapa{
 }
 
 @media screen and (max-width: 400px){
-    main .formulario .formularioContenedor form{
-        width: 332px;
-    }
-
-    main .formulario .formularioContenedor form .formularioNAE{
-        width: 90%;
-    }
-    
-    main .formulario .formularioContenedor form .formularioNAE label{
-        font-size: 18px;
-        margin-right: 10px;
+    main .hero .heroContenedor .heroTitulo .heroLinks a{
+        font-size: 12px ;
     }
     
     main .formulario .formularioContenedor form .formularioNAE input{
