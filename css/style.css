@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
@@ -10,49 +9,12 @@
 
 
 /*-----Header-----*/
-header{
-    width: 100vw;
-    height: 100px;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/dark_wall.png);
+.navbar {
+    padding: 0;
 }
 
-header nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-header nav .logo a img{
-    height: 100px;
-    width: 150px;
-}
-
-header nav .botones ul{
-    display: flex;
-    height: 100px;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
-}
-
-header nav .botones ul li a{
-    margin-left:  30px;
-    font-size: 16px;
-    color: #A5F1E9;
-    font-style: italic;
-    text-transform: uppercase;
-    transition: 0.4s linear;
-    
-}
-
-header nav .botones ul li a:hover{
-    background-color:  #7FBCD2;
-    color: #FFFF;
-    padding: 5px 10px;
-    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
-    border-radius: 8px;
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 /*-----main-----*/
@@ -70,7 +32,7 @@ main .hero{
 
 main .hero .heroContenedor{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 557px;
@@ -82,7 +44,6 @@ main .hero .heroContenedor{
 
 main .hero .heroContenedor .heroImg a img{
     height: 350px;
-    padding-bottom: 20px;
 }
 
 main .hero .heroContenedor .heroTitulo{
@@ -100,7 +61,7 @@ main .hero .heroContenedor .heroTitulo h1{
 }
 
 main .hero .heroContenedor .heroTitulo .heroLinks{
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 main .hero .heroContenedor .heroTitulo .heroLinks a{
@@ -114,6 +75,7 @@ main .hero .heroContenedor .heroTitulo .heroLinks a{
     -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
     text-transform: uppercase;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .tiendaContenedor{
@@ -219,7 +181,7 @@ main .novedades .novedadesContenedor div:hover{
 
 main .novedades .novedadesContenedor div img{
     width: 198px;
-    height: 200px;
+    height: 190px;
     border-bottom: 1px solid #000;
 }
 
@@ -229,11 +191,12 @@ main .novedades .novedadesContenedor div h3{
 }
 
 main .novedades  .novedadesContenedor div a{
-    padding: 5px 10px;
-    margin: 5px 0px;
+    padding: 5px 5px;
+    margin-bottom: 5px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 /*----ContactoMain---- */
@@ -534,14 +497,16 @@ main .contenedorCardAdultos .contenedorCardAGrid .cardA1 h3{
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA1 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA1 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA2{
@@ -563,14 +528,16 @@ main .contenedorCardAdultos .contenedorCardAGrid .cardA2 h3{
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA2 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA2 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA3{
@@ -592,14 +559,16 @@ main .contenedorCardAdultos .contenedorCardAGrid .cardA3 h3{
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA3 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA3 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA4{
@@ -621,14 +590,16 @@ main .contenedorCardAdultos .contenedorCardAGrid .cardA4 h3{
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA4 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA4 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA5{
@@ -650,14 +621,16 @@ main .contenedorCardAdultos .contenedorCardAGrid .cardA5 h3{
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA5 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA5 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA6{
@@ -680,14 +653,16 @@ main .contenedorCardAdultos .contenedorCardAGrid .cardA6 h3{
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA6 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorCardAdultos .contenedorCardAGrid .cardA6 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 /* ----MainNinios---- */
@@ -777,14 +752,16 @@ main .contenedorNinios .contenedorCardNGrid .cardN1 h3{
 
 main .contenedorNinios .contenedorCardNGrid .cardN1 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN1 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN2{
@@ -806,14 +783,16 @@ main .contenedorNinios .contenedorCardNGrid .cardN2 h3{
 
 main .contenedorNinios .contenedorCardNGrid .cardN2 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN2 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN3{
@@ -835,14 +814,16 @@ main .contenedorNinios .contenedorCardNGrid .cardN3 h3{
 
 main .contenedorNinios .contenedorCardNGrid .cardN3 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN3 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN4{
@@ -864,14 +845,16 @@ main .contenedorNinios .contenedorCardNGrid .cardN4 h3{
 
 main .contenedorNinios .contenedorCardNGrid .cardN4 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN4 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN5{
@@ -893,14 +876,16 @@ main .contenedorNinios .contenedorCardNGrid .cardN5 h3{
 
 main .contenedorNinios .contenedorCardNGrid .cardN5 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN5 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN6{
@@ -922,14 +907,16 @@ main .contenedorNinios .contenedorCardNGrid .cardN6 h3{
 
 main .contenedorNinios .contenedorCardNGrid .cardN6 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorNinios .contenedorCardNGrid .cardN6 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 /* ----MainAccesorios---- */
@@ -1019,14 +1006,16 @@ main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 h3{
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc2{
@@ -1048,14 +1037,16 @@ main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 h3{
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc3{
@@ -1077,14 +1068,16 @@ main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 h3{
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc4{
@@ -1106,14 +1099,16 @@ main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 h3{
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc5{
@@ -1135,14 +1130,16 @@ main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 h3{
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc6{
@@ -1164,14 +1161,16 @@ main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 h3{
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 p{
     padding: 0 20px;
+    margin-bottom: 0;
 }
 
 main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 a{
-    padding: 10px 20px;
+    padding: 4px 20px;
     margin: 5px 0px;
     background-color: #7FBCD2;
     color: #FFFF;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 /*-----Footer-----*/
@@ -1429,15 +1428,10 @@ footer .contenedorFooter .contenedorMapa{
 @media screen and (max-width: 1000px){
     main .tiendaContenedor .tiendaImg1{
         width: 650px;
-        
     }
     
     main .tiendaContenedor .tiendaImg2{
         width: 650px;
-    }
-
-    header nav .botones ul li a{
-        margin-left: 15px;
     }
 
     main .formulario .formularioPresentacion{
@@ -1810,10 +1804,6 @@ footer .contenedorFooter .contenedorMapa{
 }
 
 @media screen and (max-width: 650px){
-    header nav .botones ul li a{
-        font-size: 12px;
-    }
-
     main .contenedorCardAdultos .contenedorCardAGrid div{
         width: 250px;
         height: 400px;
@@ -1956,34 +1946,34 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
     
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorNinios .contenedorCardNGrid div{
@@ -1992,34 +1982,34 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorNinios .contenedorCardNGrid .cardN1 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorNinios .contenedorCardNGrid .cardN2 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorNinios .contenedorCardNGrid .cardN3 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
     
 
     main .contenedorNinios .contenedorCardNGrid .cardN4 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorNinios .contenedorCardNGrid .cardN5 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorNinios .contenedorCardNGrid .cardN6 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
     
     main .contenedorAccesorios .contenedorCardAcGrid div{
@@ -2028,34 +2018,34 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
     
 
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img{
-        width: 195px;
-        height: 190px;
+        width: 198px;
+        height: 185px;
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionImg{
@@ -2077,11 +2067,6 @@ footer .contenedorFooter .contenedorMapa{
 }
 
 @media screen and (max-width: 500px){
-    header nav .botones ul li a{
-        font-size: 10px;
-        margin-left: 10px;
-    }
-    
     main .tiendaContenedor{
         flex-direction: row;
         padding: 5px;
