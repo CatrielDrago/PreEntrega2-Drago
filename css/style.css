@@ -1939,6 +1939,12 @@ footer .contenedorFooter .contenedorMapa{
     }
 }
 
+@media screen and (max-width: 599px){
+    main .novedades .novedadesContenedor h2{
+        bottom: 677px;
+    }
+}
+
 @media screen and (max-width: 550px){
     main .contenedorCardAdultos .contenedorCardAGrid div{
         width: 200px;
