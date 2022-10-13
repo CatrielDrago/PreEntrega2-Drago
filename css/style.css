@@ -2122,8 +2122,12 @@ footer .contenedorFooter .contenedorMapa{
         height: 1400px;
     }
 
+    main .novedades .novedadesContenedor div{
+        margin-left: 30px;
+    }
+
     main .novedades .novedadesContenedor h2{
-        bottom: 1390px;
+        bottom: 1375px;
     }
 
     main .contenedorCardAdultos{
